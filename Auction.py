@@ -1,5 +1,5 @@
 import os
-
+#Made this Program to learn the usage of Dictionary in Py
 
 def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
