@@ -1,13 +1,6 @@
 import random, os
 
-"""
-1. Ask the User if He want to play or not?
-2. Initialize two random cards to both comp and player
-3. Display the players card and score, and also Computer's First Card
-4. Ask if Player want to add more card?
-5. If yes, add one card and check if it overflows or not.
-6. If overflow 21, for user, Tell Busted, else if equal 
-"""
+#Have you ever played Blackjack?? This is that game. If you haven't Google it(Can't describe cause it's big)
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
 
