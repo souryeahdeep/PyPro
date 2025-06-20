@@ -1,5 +1,5 @@
 import random
-
+#This a great game.. Try it
 word_list = ['mango', 'camel', 'baboon','nymph']
 
 list_of_ele_to_guess = list(str(random.choice(word_list)))  #list of elements to guess
