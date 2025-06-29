@@ -15,11 +15,13 @@ screen.listen()
 tim=Snake()
 food=Food()
 score=Scoreboard()
+
+#Listening from keyBoard
 screen.onkey(tim.moveup,"Up")
 screen.onkey(tim.movedown,"Down")
 screen.onkey(tim.moveleft,"Left")
 screen.onkey(tim.moveright,"Right")
-
+#game starts
 game_is_on=True
 while game_is_on:
     screen.update()
