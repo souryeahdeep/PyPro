@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess your age</title>
+</head>
+<body>
+<h1>Hi, {{name.title()}}</h1>
+{% if gender == None %}
+<h1>Sorry to say you are too unique for this world</h1>
+{% else %}
+<h1>You are probably a {{gender}} of {{age}} </h1>
+{% endif %}
+
+</body>
+</html>
