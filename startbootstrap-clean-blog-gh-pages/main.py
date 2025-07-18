@@ -1,6 +1,8 @@
 from flask import Flask,render_template
 import requests
-
+'''
+A Blog Project
+'''
 
 app=Flask(__name__)
 response=requests.get("https://api.npoint.io/ad8c79fb8795a8535d1c")
